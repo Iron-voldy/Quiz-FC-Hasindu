@@ -1,638 +1,1700 @@
 {
   "quizzes": [
     {
-      "title": "Java Programming Model Paper 1",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Fundamentals of Computing - Lecture 2: Computer Architecture",
+      "icon": "./assets/images/icon-computing.svg",
       "questions": [
         {
-          "question": "What is the primary purpose of the 'main' method in a Java program?",
-          "options": ["To initialize variables", "To serve as the entry point of the program", "To handle exceptions", "To perform mathematical calculations"],
-          "answer": "To serve as the entry point of the program"
+          "question": "Who invented the Analytical Engine, which served as a general-purpose programmable computing device?",
+          "options": [
+            "Charles Babbage",
+            "John von Neumann",
+            "Alan Turing",
+            "Steve Jobs"
+          ],
+          "answer": "Charles Babbage"
         },
         {
-          "question": "Which of the following is a valid Java variable name?",
-          "options": ["1stVariable", "first Variable", "first_variable", "first-variable"],
-          "answer": "first_variable"
+          "question": "What was the primary input mechanism for programming the Analytical Engine?",
+          "options": [
+            "Punched cards",
+            "Magnetic tape",
+            "Paper tapes",
+            "Vacuum tubes"
+          ],
+          "answer": "Punched cards"
         },
         {
-          "question": "Which data type would you use to store a character value?",
-          "options": ["int", "String", "char", "boolean"],
-          "answer": "char"
+          "question": "Which device was the world’s first large-scale digital electronic general-purpose computer?",
+          "options": [
+            "ENIAC",
+            "UNIVAC",
+            "IBM 701",
+            "Analytical Engine"
+          ],
+          "answer": "ENIAC"
         },
         {
-          "question": "How do you declare an integer variable in Java?",
-          "options": ["int x;", "integer x;", "num x;", "int: x;"],
-          "answer": "int x;"
+          "question": "In what year was ENIAC implemented?",
+          "options": [
+            "1945",
+            "1939",
+            "1950",
+            "1960"
+          ],
+          "answer": "1945"
         },
         {
-          "question": "Which of the following operators is used for addition in Java?",
-          "options": ["-", "+", "*", "/"],
-          "answer": "+"
+          "question": "Which architecture proposed that programs and data could be stored in memory and changed without rewiring the machine?",
+          "options": [
+            "Von Neumann Architecture",
+            "Harvard Architecture",
+            "ARM Architecture",
+            "MIPS Architecture"
+          ],
+          "answer": "Von Neumann Architecture"
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(10 + 5);`?",
-          "options": ["10", "5", "15", "105"],
-          "answer": "15"
+          "question": "Which bus in modern computers is used to transfer data to and from the CPU?",
+          "options": [
+            "Data Bus",
+            "Address Bus",
+            "Control Bus",
+            "Memory Bus"
+          ],
+          "answer": "Data Bus"
         },
         {
-          "question": "Which method is used to print a message to the console in Java?",
-          "options": ["System.print()", "print()", "System.out.println()", "println()"],
-          "answer": "System.out.println()"
+          "question": "Which microprocessor was released by Intel in 1970 and was the first member of the x86 family?",
+          "options": [
+            "Intel 8086",
+            "Intel 8088",
+            "Intel 4004",
+            "Intel 80286"
+          ],
+          "answer": "Intel 8086"
         },
         {
-          "question": "What is the size of a boolean data type in Java?",
-          "options": ["8 bits", "16 bits", "32 bits", "1 bit"],
-          "answer": "1 bit"
+          "question": "What is the width of the external data bus in the Intel 8086 microprocessor?",
+          "options": [
+            "16 bits",
+            "8 bits",
+            "32 bits",
+            "64 bits"
+          ],
+          "answer": "16 bits"
         },
         {
-          "question": "Which keyword is used to define a constant variable in Java?",
-          "options": ["static", "const", "final", "immutable"],
-          "answer": "final"
+          "question": "Which registers are general-purpose registers in the Intel 8086 microprocessor?",
+          "options": [
+            "AX, BX, CX, DX",
+            "SP, BP, SI, DI",
+            "CS, DS, ES, SS",
+            "IP, FLAGS"
+          ],
+          "answer": "AX, BX, CX, DX"
         },
         {
-          "question": "What is the correct way to initialize a variable of type String?",
-          "options": ["String name = 'John';", "String name = John;", "String name = \"John\";", "String name = `John`;"],
-          "answer": "String name = \"John\";"
+          "question": "Which microprocessor was included in the first IBM PC released in 1981?",
+          "options": [
+            "Intel 8088",
+            "Intel 8086",
+            "Intel 80286",
+            "Intel 80386"
+          ],
+          "answer": "Intel 8088"
         },
         {
-          "question": "Which of these is a primitive data type in Java?",
-          "options": ["String", "int", "Object", "ArrayList"],
-          "answer": "int"
+          "question": "What was the clock frequency of the Intel 8088 microprocessor in the IBM PC?",
+          "options": [
+            "4.77 MHz",
+            "5.00 MHz",
+            "10.00 MHz",
+            "2.50 MHz"
+          ],
+          "answer": "4.77 MHz"
         },
         {
-          "question": "What does IDE stand for in the context of Java programming?",
-          "options": ["Integrated Development Environment", "International Development Environment", "Integrated Design Environment", "Internal Development Environment"],
-          "answer": "Integrated Development Environment"
+          "question": "Which microprocessor was used in the IBM PC AT released in 1984?",
+          "options": [
+            "Intel 80286",
+            "Intel 8086",
+            "Intel 80386",
+            "Intel 8088"
+          ],
+          "answer": "Intel 80286"
         },
         {
-          "question": "Which of the following is the correct syntax to create a single-line comment in Java?",
-          "options": ["/* comment */", "// comment", "<!-- comment -->", "# comment"],
-          "answer": "// comment"
+          "question": "Which microprocessor introduced in 1985 had a 32-bit architecture and backward compatibility with the 8086 and 80286?",
+          "options": [
+            "Intel 80386",
+            "Intel 8088",
+            "Intel 80286",
+            "Intel Pentium"
+          ],
+          "answer": "Intel 80386"
         },
         {
-          "question": "Which operator is used to compare two values for equality in Java?",
-          "options": ["==", "=", "equals()", "!"],
-          "answer": "=="
+          "question": "Which component of the Intel 80386 microprocessor was responsible for managing memory?",
+          "options": [
+            "Memory Management Unit",
+            "Execution Unit",
+            "Bus Interface Unit",
+            "Code Fetch Unit"
+          ],
+          "answer": "Memory Management Unit"
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(5 / 2);`?",
-          "options": ["2", "2.5", "3", "2.0"],
-          "answer": "2"
+          "question": "Which year was the first iPhone introduced by Steve Jobs?",
+          "options": [
+            "2007",
+            "2005",
+            "2003",
+            "2009"
+          ],
+          "answer": "2007"
         },
         {
-          "question": "How do you start a block of code that will run if a condition is true in Java?",
-          "options": ["if(condition) {", "while(condition) {", "for(condition) {", "do { condition }"],
-          "answer": "if(condition) {"
+          "question": "What was the size of the screen of the first iPhone?",
+          "options": [
+            "3.5 inches",
+            "4.0 inches",
+            "2.5 inches",
+            "3.0 inches"
+          ],
+          "answer": "3.5 inches"
         },
         {
-          "question": "Which of these is not a valid data type in Java?",
-          "options": ["double", "float", "real", "char"],
-          "answer": "real"
+          "question": "Which microprocessor powered the first iPhone?",
+          "options": [
+            "ARM11",
+            "Intel Pentium",
+            "Intel Core",
+            "Qualcomm Snapdragon"
+          ],
+          "answer": "ARM11"
         },
         {
-          "question": "Which of the following is used to create a loop in Java?",
-          "options": ["if", "while", "switch", "case"],
-          "answer": "while"
+          "question": "Which company manufactured the ARM11 processor used in the first iPhone?",
+          "options": [
+            "Samsung",
+            "Intel",
+            "Qualcomm",
+            "Apple"
+          ],
+          "answer": "Samsung"
         },
         {
-          "question": "Which keyword is used to define a subclass in Java?",
-          "options": ["subclass", "inherits", "extends", "super"],
-          "answer": "extends"
+          "question": "What operating system did the first iPhone use?",
+          "options": [
+            "OS X",
+            "Windows Mobile",
+            "Android",
+            "Symbian"
+          ],
+          "answer": "OS X"
         },
         {
-          "question": "What is the default value of a boolean variable in Java?",
-          "options": ["true", "false", "0", "null"],
-          "answer": "false"
+          "question": "Which feature was introduced with the iPhone’s touch screen?",
+          "options": [
+            "Multi-finger gestures",
+            "Stylus input",
+            "Resistive touch",
+            "Haptic feedback"
+          ],
+          "answer": "Multi-finger gestures"
+        },
+        {
+          "question": "What type of battery powered the first iPhone?",
+          "options": [
+            "Lithium-ion polymer",
+            "Nickel-cadmium",
+            "Alkaline",
+            "Lead-acid"
+          ],
+          "answer": "Lithium-ion polymer"
+        },
+        {
+          "question": "What is the main advantage of using the von Neumann architecture in computers?",
+          "options": [
+            "Programs and data can be stored in the same memory",
+            "Increased clock speed",
+            "Larger bus width",
+            "Multi-core processing"
+          ],
+          "answer": "Programs and data can be stored in the same memory"
+        },
+        {
+          "question": "Which unit in the Intel 80386 microprocessor fetches the code for execution?",
+          "options": [
+            "Code Fetch Unit",
+            "Execution Unit",
+            "Bus Interface Unit",
+            "Instruction Decode Unit"
+          ],
+          "answer": "Code Fetch Unit"
+        },
+        {
+          "question": "Which microprocessor was the first to introduce a 32-bit architecture?",
+          "options": [
+            "Intel 80386",
+            "Intel 8086",
+            "Intel 80286",
+            "Intel 8088"
+          ],
+          "answer": "Intel 80386"
+        },
+        {
+          "question": "Which architecture allows for the simultaneous execution of audio and video tasks in the first iPhone?",
+          "options": [
+            "Single Instruction-Multiple Data (SIMD)",
+            "Von Neumann Architecture",
+            "RISC",
+            "MIPS"
+          ],
+          "answer": "Single Instruction-Multiple Data (SIMD)"
         }
       ]
     },
     {
-      "title": "Java Programming Model Paper 2",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Fundamentals of Computing - Lecture 3: Data Representation in Computer",
+      "icon": "./assets/images/icon-computing.svg",
       "questions": [
         {
-          "question": "Which of the following is the correct way to declare a float variable in Java?",
-          "options": ["float f = 1.0;", "float f = 1.0f;", "float f = '1.0';", "float f = 1;"],
-          "answer": "float f = 1.0f;"
+          "question": "Which data type refers to numerical information?",
+          "options": [
+            "Quantitative",
+            "Qualitative",
+            "Discrete",
+            "Continuous"
+          ],
+          "answer": "Quantitative"
         },
         {
-          "question": "Which of these is a reserved keyword in Java?",
-          "options": ["include", "try", "define", "scan"],
-          "answer": "try"
+          "question": "What is the term for converting information into digital data that can be manipulated by electronic devices?",
+          "options": [
+            "Digitization",
+            "Quantization",
+            "Binary coding",
+            "Hexadecimal coding"
+          ],
+          "answer": "Digitization"
         },
         {
-          "question": "What is the output of the following code: `System.out.println(9 % 4);`?",
-          "options": ["1", "2", "3", "4"],
-          "answer": "1"
+          "question": "What number system is used by computers to process data?",
+          "options": [
+            "Binary",
+            "Decimal",
+            "Hexadecimal",
+            "Octal"
+          ],
+          "answer": "Binary"
         },
         {
-          "question": "Which of the following is an example of a ternary operator in Java?",
-          "options": ["if-else", "for", "?:", "switch-case"],
-          "answer": "?:"
-        },
-        {
-          "question": "Which statement is used to terminate a loop in Java?",
-          "options": ["exit", "break", "continue", "stop"],
-          "answer": "break"
-        },
-        {
-          "question": "What does the following code print? `String str = \"Java\"; System.out.println(str.length());`",
-          "options": ["4", "5", "6", "3"],
-          "answer": "4"
-        },
-        {
-          "question": "Which keyword is used to handle exceptions in Java?",
-          "options": ["handle", "catch", "throw", "try"],
-          "answer": "catch"
-        },
-        {
-          "question": "Which of these loops is guaranteed to run at least once?",
-          "options": ["for", "while", "do-while", "foreach"],
-          "answer": "do-while"
-        },
-        {
-          "question": "Which class is the parent class of all classes in Java?",
-          "options": ["System", "String", "Object", "Main"],
-          "answer": "Object"
-        },
-        {
-          "question": "Which of the following is a feature of the Java programming language?",
-          "options": ["Platform-dependent", "Single-threaded", "Garbage collection", "Multiple inheritance"],
-          "answer": "Garbage collection"
-        },
-        {
-          "question": "Which method can be used to find the largest number in a set of numbers in Java?",
-          "options": ["Math.max()", "Math.min()", "Math.abs()", "Math.sqrt()"],
-          "answer": "Math.max()"
-        },
-        {
-          "question": "Which of these is a valid way to create an array of integers in Java?",
-          "options": ["int[] arr = new int[5];", "int arr = new int[5];", "int[5] arr;", "int arr[5];"],
-          "answer": "int[] arr = new int[5];"
-        },
-        {
-          "question": "Which keyword is used to define a package in Java?",
-          "options": ["define", "package", "include", "namespace"],
-          "answer": "package"
-        },
-        {
-          "question": "What will be the output of the following code? `System.out.println(\"Hello\" + \" World\");`",
-          "options": ["Hello World", "HelloWorld", "Hello+World", "Hello + World"],
-          "answer": "Hello World"
-        },
-        {
-          "question": "Which of the following is not a valid Java operator?",
-          "options": ["&&", "||", "&|", "!="],
-          "answer": "&|"
-        },
-        {
-          "question": "Which method is used to convert a string to an integer in Java?",
-          "options": ["Integer.parseInt()", "String.toInt()", "toString()", "int.valueOf()"],
-          "answer": "Integer.parseInt()"
-        },
-        {
-          "question": "What is the result of `true && false` in Java?",
-          "options": ["true", "false", "null", "0"],
-          "answer": "false"
-        },
-        {
-          "question": "Which of the following data types is used to store decimal numbers in Java?",
-          "options": ["int", "double", "char", "boolean"],
-          "answer": "double"
-        },
-        {
-          "question": "Which method is used to get the current date and time in Java?",
-          "options": ["Date.now()", "LocalDateTime.now()", "System.currentTime()", "Time.now()"],
-          "answer": "LocalDateTime.now()"
-        },
-        {
-          "question": "Which keyword is used to create an interface in Java?",
-          "options": ["class", "interface", "implements", "extends"],
-          "answer": "interface"
-        }
-      ]
-    },
-    {
-      "title": "Java Programming Model Paper 3",
-      "icon": "./assets/images/icon-java.svg",
-      "questions": [
-        {
-          "question": "Which of the following statements is used to create a new object in Java?",
-          "options": ["create Object()", "new Object()", "Object.new()", "new()"],
-          "answer": "new Object()"
-        },
-        {
-          "question": "Which keyword is used to refer to the immediate parent class object?",
-          "options": ["super", "this", "parent", "base"],
-          "answer": "super"
-        },
-        {
-          "question": "Which of the following is not a valid method of the String class in Java?",
-          "options": ["toLowerCase()", "toUpperCase()", "reverse()", "charAt()"],
-          "answer": "reverse()"
-        },
-        {
-          "question": "Which of the following access specifiers restricts access to the members of a class from any class outside the package?",
-          "options": ["private", "protected", "public", "default"],
-          "answer": "private"
-        },
-        {
-          "question": "Which method is used to get the length of an array in Java?",
-          "options": ["length()", "size()", "getLength()", "arraySize()"],
-          "answer": "length"
-        },
-        {
-          "question": "Which of the following is a valid syntax to call a constructor of the parent class?",
-          "options": ["parent()", "super()", "this()", "base()"],
-          "answer": "super()"
-        },
-        {
-          "question": "Which keyword is used to create a class in Java?",
-          "options": ["new", "create", "class", "define"],
-          "answer": "class"
-        },
-        {
-          "question": "Which operator is used to access the members of an object?",
-          "options": [".", "::", "->", "."],
-          "answer": "."
-        },
-        {
-          "question": "What is the output of `System.out.println(Math.pow(2, 3));`?",
-          "options": ["6", "8", "9", "4"],
+          "question": "How many bits are in 1 byte?",
+          "options": [
+            "8",
+            "16",
+            "32",
+            "4"
+          ],
           "answer": "8"
         },
         {
-          "question": "Which of these is a correct way to handle multiple exceptions in Java?",
-          "options": ["catch (Exception1, Exception2)", "catch (Exception1 | Exception2)", "catch (Exception1 & Exception2)", "catch {Exception1, Exception2}"],
-          "answer": "catch (Exception1 | Exception2)"
+          "question": "How much memory is represented by 1 GB?",
+          "options": [
+            "1024 MB",
+            "1024 KB",
+            "1024 TB",
+            "1024 Bytes"
+          ],
+          "answer": "1024 MB"
         },
         {
-          "question": "Which keyword is used to stop the execution of a method in Java?",
-          "options": ["return", "break", "continue", "stop"],
-          "answer": "return"
+          "question": "What is the Binary Coded Decimal (BCD) code used for?",
+          "options": [
+            "Encoding numeric values",
+            "Encoding characters",
+            "Encoding colors",
+            "Encoding images"
+          ],
+          "answer": "Encoding numeric values"
         },
         {
-          "question": "Which keyword is used to inherit a class in Java?",
-          "options": ["implements", "inherits", "extends", "follows"],
-          "answer": "extends"
+          "question": "ASCII is a standard code used to represent characters. How many bits are used in the ASCII system?",
+          "options": [
+            "7 bits",
+            "8 bits",
+            "16 bits",
+            "32 bits"
+          ],
+          "answer": "7 bits"
         },
         {
-          "question": "Which of the following is true about an abstract class in Java?",
-          "options": ["It cannot have a constructor", "It can have both abstract and non-abstract methods", "It can be instantiated", "It must have at least one abstract method"],
-          "answer": "It can have both abstract and non-abstract methods"
+          "question": "What is the key difference between ASCII and extended ASCII?",
+          "options": [
+            "Extended ASCII uses 8 bits",
+            "Extended ASCII uses 7 bits",
+            "ASCII can represent more than 256 characters",
+            "Extended ASCII is not used for characters"
+          ],
+          "answer": "Extended ASCII uses 8 bits"
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(Math.min(5, 10));`?",
-          "options": ["5", "10", "0", "15"],
-          "answer": "5"
+          "question": "What is the primary purpose of Unicode?",
+          "options": [
+            "To provide a unique number for every character",
+            "To represent only numeric values",
+            "To store binary data",
+            "To represent images"
+          ],
+          "answer": "To provide a unique number for every character"
         },
         {
-          "question": "Which method is used to convert a string to an array of characters?",
-          "options": ["toCharArray()", "charArray()", "getChars()", "split()"],
-          "answer": "toCharArray()"
+          "question": "How many values can be represented by 4 bits in hexadecimal?",
+          "options": [
+            "16",
+            "8",
+            "32",
+            "64"
+          ],
+          "answer": "16"
         },
         {
-          "question": "Which of the following is used to create a thread in Java?",
-          "options": ["Runnable interface", "Thread class", "Both A and B", "None of the above"],
-          "answer": "Both A and B"
+          "question": "In computer architecture, what does the CPU control?",
+          "options": [
+            "The operation of the computer and data processing functions",
+            "The input and output devices",
+            "Only the memory",
+            "The storage devices"
+          ],
+          "answer": "The operation of the computer and data processing functions"
         },
         {
-          "question": "Which keyword is used to throw an exception in Java?",
-          "options": ["throw", "throws", "thrown", "catch"],
-          "answer": "throw"
+          "question": "What is the role of the ALU (Arithmetic Logic Unit) in a computer?",
+          "options": [
+            "It performs data processing functions",
+            "It controls the flow of data",
+            "It stores data and instructions",
+            "It handles input and output operations"
+          ],
+          "answer": "It performs data processing functions"
         },
         {
-          "question": "Which method is used to check if two strings are equal, ignoring case considerations?",
-          "options": ["equalsIgnoreCase()", "compareToIgnoreCase()", "equals()", "compareTo()"],
-          "answer": "equalsIgnoreCase()"
+          "question": "Which component in the CPU stores data temporarily and is internal to the CPU?",
+          "options": [
+            "Registers",
+            "Cache memory",
+            "Main memory",
+            "Hard drive"
+          ],
+          "answer": "Registers"
         },
         {
-          "question": "What is the return type of the 'hashCode()' method in Java?",
-          "options": ["int", "long", "short", "byte"],
-          "answer": "int"
+          "question": "Which microprocessor is the first member of the x86 family released by Intel?",
+          "options": [
+            "8086",
+            "8088",
+            "80286",
+            "80386"
+          ],
+          "answer": "8086"
         },
         {
-          "question": "Which of these is a method of the Integer class?",
-          "options": ["parseInt()", "toInteger()", "intValue()", "All of the above"],
-          "answer": "All of the above"
+          "question": "What does the Program Counter (PC) or Instruction Pointer (IP) hold in the 8086 microprocessor?",
+          "options": [
+            "The address of the next instruction to be executed",
+            "The current memory address",
+            "The result of the last computation",
+            "The status of the CPU"
+          ],
+          "answer": "The address of the next instruction to be executed"
+        },
+        {
+          "question": "Which field in the 8086 instruction format specifies the operation to be performed by the CPU?",
+          "options": [
+            "Opcode field",
+            "Operand field",
+            "Mod field",
+            "Direction field"
+          ],
+          "answer": "Opcode field"
+        },
+        {
+          "question": "In the 8086 instruction format, what does the 'D' bit represent?",
+          "options": [
+            "Direction of the transfer",
+            "Data being transferred",
+            "Double precision",
+            "Division operation"
+          ],
+          "answer": "Direction of the transfer"
+        },
+        {
+          "question": "Which instruction is used to compare two numbers in the 8086 instruction set?",
+          "options": [
+            "CMP",
+            "ADD",
+            "MOV",
+            "JMP"
+          ],
+          "answer": "CMP"
+        },
+        {
+          "question": "What are the two steps of the instruction cycle?",
+          "options": [
+            "Fetch and Execute",
+            "Store and Decode",
+            "Load and Transfer",
+            "Write and Read"
+          ],
+          "answer": "Fetch and Execute"
+        },
+        {
+          "question": "What is the primary goal of the CISC (Complex Instruction Set Computer) architecture?",
+          "options": [
+            "To complete a task in as few lines of assembly as possible",
+            "To use simple instructions executed within one clock cycle",
+            "To simplify the hardware",
+            "To reduce the amount of memory needed"
+          ],
+          "answer": "To complete a task in as few lines of assembly as possible"
+        },
+        {
+          "question": "Which architecture uses simple instructions that can be executed within one clock cycle?",
+          "options": [
+            "RISC",
+            "CISC",
+            "MIPS",
+            "ARM"
+          ],
+          "answer": "RISC"
+        },
+        {
+          "question": "What does the instruction 'MOV' do in the 8086 instruction set?",
+          "options": [
+            "Move data from one location to another",
+            "Add two numbers",
+            "Jump to another instruction",
+            "Compare two values"
+          ],
+          "answer": "Move data from one location to another"
+        },
+        {
+          "question": "What is the function of the Control Unit (CU) in the CPU?",
+          "options": [
+            "It coordinates the sequence of data movements into and out of the CPU",
+            "It performs arithmetic operations",
+            "It stores data and instructions",
+            "It moves data between the computer and its external environment"
+          ],
+          "answer": "It coordinates the sequence of data movements into and out of the CPU"
+        },
+        {
+          "question": "How are instructions categorized in the 8086 instruction set?",
+          "options": [
+            "By their functionalities",
+            "By their memory size",
+            "By their speed",
+            "By their address length"
+          ],
+          "answer": "By their functionalities"
         }
       ]
     },
     {
-      "title": "Java Programming Model Paper 4",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Fundamentals of Computing - Lecture 4: Digital Logic - 1",
+      "icon": "./assets/images/icon-computing.svg",
       "questions": [
         {
-          "question": "What is the purpose of the `this` keyword in Java?",
-          "options": ["To refer to the current object", "To refer to the superclass", "To refer to a static method", "To create a new object"],
-          "answer": "To refer to the current object"
+          "question": "What is the primary function of conductive materials such as copper in electrical circuits?",
+          "options": [
+            "To produce an electrical current",
+            "To inhibit the flow of electricity",
+            "To store energy",
+            "To provide insulation"
+          ],
+          "answer": "To produce an electrical current"
         },
         {
-          "question": "Which of the following is not a Java loop construct?",
-          "options": ["for", "while", "foreach", "do-while"],
-          "answer": "foreach"
+          "question": "What is the opposition to the flow of electric current in a conductor called?",
+          "options": [
+            "Resistance",
+            "Voltage",
+            "Current",
+            "Power"
+          ],
+          "answer": "Resistance"
         },
         {
-          "question": "Which exception is thrown when a file is not found in Java?",
-          "options": ["FileNotFoundException", "IOException", "RuntimeException", "FileException"],
-          "answer": "FileNotFoundException"
+          "question": "What is the relationship between voltage, current, and resistance described by?",
+          "options": [
+            "Ohm's law",
+            "Kirchhoff's law",
+            "Faraday's law",
+            "Newton's law"
+          ],
+          "answer": "Ohm's law"
         },
         {
-          "question": "Which of these methods is used to calculate the absolute value of a number in Java?",
-          "options": ["Math.abs()", "Math.absolute()", "Math.ceil()", "Math.floor()"],
-          "answer": "Math.abs()"
+          "question": "A transistor is a semiconductor device used primarily as what?",
+          "options": [
+            "A digital switching element",
+            "A memory element",
+            "A current storage element",
+            "A voltage source"
+          ],
+          "answer": "A digital switching element"
         },
         {
-          "question": "Which of the following is a feature of the Java programming language?",
-          "options": ["Manual memory management", "Automatic garbage collection", "Multiple inheritance", "Platform-dependent"],
-          "answer": "Automatic garbage collection"
+          "question": "Which terminal in a transistor collects the current?",
+          "options": [
+            "Collector",
+            "Emitter",
+            "Base",
+            "Gate"
+          ],
+          "answer": "Collector"
         },
         {
-          "question": "Which of the following is not a valid access modifier in Java?",
-          "options": ["public", "private", "protected", "friendly"],
-          "answer": "friendly"
+          "question": "Which of the following best describes a logic gate?",
+          "options": [
+            "An electronic circuit with one or more inputs and one output",
+            "A memory storage device",
+            "A power source",
+            "A circuit breaker"
+          ],
+          "answer": "An electronic circuit with one or more inputs and one output"
         },
         {
-          "question": "What will be the output of the following code? `System.out.println(\"Java\".substring(1, 3));`",
-          "options": ["Ja", "Jav", "av", "ava"],
-          "answer": "av"
+          "question": "What mathematical model is used to design and simplify digital circuits?",
+          "options": [
+            "Boolean Algebra",
+            "Trigonometry",
+            "Differential Calculus",
+            "Set Theory"
+          ],
+          "answer": "Boolean Algebra"
         },
         {
-          "question": "Which of the following is used to read input from the user in Java?",
-          "options": ["Scanner class", "InputStream class", "FileReader class", "Buffer class"],
-          "answer": "Scanner class"
+          "question": "Which type of circuit has outputs that depend only on the current input and has no memory?",
+          "options": [
+            "Combinational circuits",
+            "Sequential circuits",
+            "Analog circuits",
+            "Resonant circuits"
+          ],
+          "answer": "Combinational circuits"
         },
         {
-          "question": "Which of these is not a keyword in Java?",
-          "options": ["interface", "goto", "constant", "synchronized"],
-          "answer": "constant"
+          "question": "Why is simplification of digital logic circuits necessary?",
+          "options": [
+            "To reduce the number of gates and lower cost",
+            "To increase the complexity",
+            "To increase power consumption",
+            "To make the circuit slower"
+          ],
+          "answer": "To reduce the number of gates and lower cost"
         },
         {
-          "question": "Which of these methods is used to find the length of a string in Java?",
-          "options": ["length()", "size()", "getLength()", "count()"],
-          "answer": "length()"
+          "question": "What is a Karnaugh map (K-map) used for in digital logic?",
+          "options": [
+            "Simplifying Boolean functions",
+            "Increasing the complexity of circuits",
+            "Measuring voltage",
+            "Storing binary data"
+          ],
+          "answer": "Simplifying Boolean functions"
         },
         {
-          "question": "What is the output of the following code: `System.out.println(10 > 5 ? \"True\" : \"False\");`",
-          "options": ["True", "False", "Error", "0"],
-          "answer": "True"
+          "question": "Which of the following is a rule of K-map simplification?",
+          "options": [
+            "Groups can only contain powers of two",
+            "Groups can contain any number of 1s",
+            "Groups can overlap diagonally",
+            "Only non-adjacent cells can form groups"
+          ],
+          "answer": "Groups can only contain powers of two"
         },
         {
-          "question": "Which keyword is used to define a class that cannot be extended?",
-          "options": ["final", "static", "abstract", "constant"],
-          "answer": "final"
+          "question": "What is the smallest grouping possible in a K-map?",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+          ],
+          "answer": "1"
         },
         {
-          "question": "Which of these is not a valid Java data type?",
-          "options": ["char", "int", "double", "number"],
-          "answer": "number"
+          "question": "In K-map simplification, groups can wrap around the sides of the map. What does this signify?",
+          "options": [
+            "The values of variables outside the group are not relevant",
+            "The circuit is faulty",
+            "The group is invalid",
+            "It requires more inputs"
+          ],
+          "answer": "The values of variables outside the group are not relevant"
         },
         {
-          "question": "What is the output of the following code? `System.out.println(3 * 2 + 1);`",
-          "options": ["5", "6", "7", "9"],
-          "answer": "7"
+          "question": "Which of the following variables becomes irrelevant in a three-variable K-map when all other variables cancel out?",
+          "options": [
+            "X",
+            "Y",
+            "Z",
+            "Both X and Y"
+          ],
+          "answer": "Both X and Y"
         },
         {
-          "question": "Which of these is not a method of the java.util.ArrayList class?",
-          "options": ["add()", "remove()", "get()", "push()"],
-          "answer": "push()"
+          "question": "What method of simplification is specifically designed for visualizing Boolean expressions in circuit design?",
+          "options": [
+            "K-map",
+            "Binary Tree",
+            "Flowchart",
+            "Truth Table"
+          ],
+          "answer": "K-map"
         },
         {
-          "question": "Which of these keywords is used to create an interface in Java?",
-          "options": ["interface", "class", "implements", "extends"],
-          "answer": "interface"
+          "question": "What is the main function of a combinational logic circuit?",
+          "options": [
+            "Process input to produce an output",
+            "Store previous output",
+            "Perform continuous feedback loops",
+            "Repeat the same output"
+          ],
+          "answer": "Process input to produce an output"
         },
         {
-          "question": "What is the result of `System.out.println(10 < 20 && 5 > 3);`?",
-          "options": ["true", "false", "null", "Error"],
-          "answer": "true"
+          "question": "Which circuit element represents a 2-state system in a digital logic circuit?",
+          "options": [
+            "Logic Gate",
+            "Resistor",
+            "Capacitor",
+            "Inductor"
+          ],
+          "answer": "Logic Gate"
         },
         {
-          "question": "Which of the following methods is used to find the square root of a number in Java?",
-          "options": ["Math.sqrt()", "Math.square()", "Math.root()", "Math.pow()"],
-          "answer": "Math.sqrt()"
+          "question": "Why is Boolean algebra used in digital circuits?",
+          "options": [
+            "To simplify complex circuit designs",
+            "To increase circuit size",
+            "To reduce efficiency",
+            "To add more gates"
+          ],
+          "answer": "To simplify complex circuit designs"
         },
         {
-          "question": "Which of these is a valid way to start a comment in Java?",
-          "options": ["//", "<!--", "/*", "#"],
-          "answer": "//"
+          "question": "In a digital circuit, which logic gate produces an output of 1 only when both inputs are 1?",
+          "options": [
+            "AND gate",
+            "OR gate",
+            "NOT gate",
+            "NAND gate"
+          ],
+          "answer": "AND gate"
         },
         {
-          "question": "Which of these is a valid Java array declaration?",
-          "options": ["int[] arr;", "int arr[];", "int arr = [];", "Both A and B"],
-          "answer": "Both A and B"
+          "question": "Which logic gate produces an output of 1 when any one of its inputs is 1?",
+          "options": [
+            "OR gate",
+            "AND gate",
+            "NAND gate",
+            "NOR gate"
+          ],
+          "answer": "OR gate"
+        },
+        {
+          "question": "What is the output of a NAND gate when both inputs are 1?",
+          "options": [
+            "0",
+            "1",
+            "Depends on the voltage",
+            "Undefined"
+          ],
+          "answer": "0"
+        },
+        {
+          "question": "What is the role of the base terminal in a transistor?",
+          "options": [
+            "It controls the current flowing between the collector and emitter",
+            "It emits current",
+            "It collects current",
+            "It regulates voltage"
+          ],
+          "answer": "It controls the current flowing between the collector and emitter"
+        },
+        {
+          "question": "What is the objective of combinational circuit simplification?",
+          "options": [
+            "To minimize the number of gates and reduce power consumption",
+            "To increase complexity",
+            "To use more input variables",
+            "To improve gate response time"
+          ],
+          "answer": "To minimize the number of gates and reduce power consumption"
+        },
+        {
+          "question": "In a truth table, what do the columns represent?",
+          "options": [
+            "Input and output values",
+            "Current and resistance",
+            "Voltage and power",
+            "Time and frequency"
+          ],
+          "answer": "Input and output values"
         }
       ]
     },
     {
-      "title": "Java Programming Model Paper 5",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Fundamentals of Computing - Lecture 5: Digital Logic - II",
+      "icon": "./assets/images/icon-computing.svg",
       "questions": [
         {
-          "question": "Which of these is a valid way to concatenate strings in Java?",
-          "options": ["String1 + String2", "String1.concat(String2)", "StringBuilder.append()", "All of the above"],
-          "answer": "All of the above"
+          "question": "What is the sum operation in a half adder?",
+          "options": [
+            "XOR",
+            "AND",
+            "OR",
+            "NOT"
+          ],
+          "answer": "XOR"
         },
         {
-          "question": "What is the output of the following code: `System.out.println(5 * 2 / 2);`",
-          "options": ["2.5", "5", "10", "0"],
-          "answer": "5"
+          "question": "In a half adder, what operation is used to calculate the carry?",
+          "options": [
+            "AND",
+            "OR",
+            "XOR",
+            "NOR"
+          ],
+          "answer": "AND"
         },
         {
-          "question": "Which of the following is not a feature of Java?",
-          "options": ["Object-oriented", "Platform-independent", "Supports pointers", "Secure"],
-          "answer": "Supports pointers"
+          "question": "What is the key difference between a half adder and a full adder?",
+          "options": [
+            "A full adder includes a carry input",
+            "A full adder includes an OR gate",
+            "A half adder uses only one input",
+            "A full adder uses only XOR gates"
+          ],
+          "answer": "A full adder includes a carry input"
         },
         {
-          "question": "Which of these is the correct way to create an object of the class 'Car'?",
-          "options": ["Car myCar = new Car();", "Car myCar;", "myCar = new Car();", "Car() myCar;"],
-          "answer": "Car myCar = new Car();"
+          "question": "What does a shifter circuit do?",
+          "options": [
+            "Shifts input bits left or right",
+            "Adds binary numbers",
+            "Compares two inputs",
+            "Encodes binary information"
+          ],
+          "answer": "Shifts input bits left or right"
         },
         {
-          "question": "Which of the following is not a method of the String class in Java?",
-          "options": ["length()", "compareTo()", "toUpperCase()", "toChar()"],
-          "answer": "toChar()"
+          "question": "How does a comparator circuit determine if two inputs are equal?",
+          "options": [
+            "It uses an XOR gate",
+            "It uses an AND gate",
+            "It uses an OR gate",
+            "It uses a NOR gate"
+          ],
+          "answer": "It uses an XOR gate"
         },
         {
-          "question": "Which keyword is used to define a block of code that will run if no exceptions are thrown?",
-          "options": ["catch", "try", "finally", "default"],
-          "answer": "finally"
+          "question": "What is the function of a decoder in digital logic?",
+          "options": [
+            "It converts binary information from n inputs to a maximum of 2^n outputs",
+            "It adds binary numbers",
+            "It shifts bits left or right",
+            "It stores binary data"
+          ],
+          "answer": "It converts binary information from n inputs to a maximum of 2^n outputs"
         },
         {
-          "question": "What is the output of the following code? `System.out.println(\"Hello World\".toUpperCase());`",
-          "options": ["HELLO WORLD", "Hello World", "hello world", "Helloworld"],
-          "answer": "HELLO WORLD"
+          "question": "In a 3-to-8 binary decoder, how many inputs and outputs are there?",
+          "options": [
+            "3 inputs and 8 outputs",
+            "8 inputs and 3 outputs",
+            "2 inputs and 4 outputs",
+            "4 inputs and 2 outputs"
+          ],
+          "answer": "3 inputs and 8 outputs"
         },
         {
-          "question": "Which of these methods is used to determine if a string starts with a certain prefix?",
-          "options": ["startsWith()", "beginWith()", "hasPrefix()", "starts()"],
-          "answer": "startsWith()"
+          "question": "What is the purpose of decoder expansion in combinational circuit design?",
+          "options": [
+            "To combine smaller decoders to form a larger one",
+            "To increase the number of inputs",
+            "To store data in memory",
+            "To compare two binary numbers"
+          ],
+          "answer": "To combine smaller decoders to form a larger one"
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(10 % 4);`",
-          "options": ["0", "2", "4", "3"],
-          "answer": "2"
+          "question": "What is the inverse operation of a decoder?",
+          "options": [
+            "Encoder",
+            "Multiplexer",
+            "Shifter",
+            "Comparator"
+          ],
+          "answer": "Encoder"
         },
         {
-          "question": "Which of these keywords is used to define a method that must be implemented by subclasses?",
-          "options": ["abstract", "final", "static", "default"],
-          "answer": "abstract"
+          "question": "How many OR gates are required to implement a 2^n-to-n encoder?",
+          "options": [
+            "n OR gates",
+            "2^n OR gates",
+            "1 OR gate",
+            "None"
+          ],
+          "answer": "n OR gates"
         },
         {
-          "question": "Which of these is not a Java exception handling keyword?",
-          "options": ["try", "catch", "throw", "handle"],
-          "answer": "handle"
+          "question": "What is the function of a multiplexer (MUX)?",
+          "options": [
+            "It selects one input from multiple data inputs",
+            "It compares two inputs",
+            "It shifts bits left or right",
+            "It adds two binary numbers"
+          ],
+          "answer": "It selects one input from multiple data inputs"
         },
         {
-          "question": "Which method is used to stop the execution of a thread?",
-          "options": ["stop()", "terminate()", "exit()", "end()"],
-          "answer": "stop()"
+          "question": "How many input selection lines are required for a 4-to-1 multiplexer?",
+          "options": [
+            "2 selection lines",
+            "4 selection lines",
+            "1 selection line",
+            "3 selection lines"
+          ],
+          "answer": "2 selection lines"
         },
         {
-          "question": "Which of these is a method of the Math class in Java?",
-          "options": ["max()", "min()", "pow()", "All of the above"],
-          "answer": "All of the above"
+          "question": "Which combinational circuit is used to implement logic functions of a truth table?",
+          "options": [
+            "Multiplexer",
+            "Full Adder",
+            "Half Adder",
+            "Comparator"
+          ],
+          "answer": "Multiplexer"
         },
         {
-          "question": "Which of the following is true about Java?",
-          "options": ["It is a compiled language", "It is an interpreted language", "It is both compiled and interpreted", "None of the above"],
-          "answer": "It is both compiled and interpreted"
+          "question": "What does a programmable logic array (PLA) provide in digital logic design?",
+          "options": [
+            "A quick and easy way to implement Boolean functions",
+            "A method to shift bits left or right",
+            "A way to compare two inputs",
+            "A way to encode binary information"
+          ],
+          "answer": "A quick and easy way to implement Boolean functions"
         },
         {
-          "question": "Which of the following is not a type of inheritance in Java?",
-          "options": ["Single", "Multilevel", "Hybrid", "Multiple"],
-          "answer": "Multiple"
+          "question": "In a PLA, which gates are arranged in arrays to implement Boolean functions?",
+          "options": [
+            "AND and OR gates",
+            "XOR and AND gates",
+            "NAND and NOR gates",
+            "NOT and AND gates"
+          ],
+          "answer": "AND and OR gates"
         },
         {
-          "question": "Which of the following methods is used to write to a file in Java?",
-          "options": ["FileWriter.write()", "File.read()", "FileStream()", "FileOpen.write()"],
-          "answer": "FileWriter.write()"
+          "question": "What is the main role of an Arithmetic and Logic Unit (ALU)?",
+          "options": [
+            "To perform AND, OR, and sum operations of two input words",
+            "To store data in memory",
+            "To compare two binary numbers",
+            "To shift bits left or right"
+          ],
+          "answer": "To perform AND, OR, and sum operations of two input words"
         },
         {
-          "question": "What is the output of the following code: `System.out.println(10 > 5 || 5 > 10);`",
-          "options": ["true", "false", "null", "0"],
-          "answer": "true"
+          "question": "In an ALU, which operation is implemented using a full adder circuit?",
+          "options": [
+            "Sum operation",
+            "AND operation",
+            "OR operation",
+            "XOR operation"
+          ],
+          "answer": "Sum operation"
         },
         {
-          "question": "Which keyword is used to refer to the superclass of a class?",
-          "options": ["parent", "super", "base", "extends"],
-          "answer": "super"
+          "question": "How are multiple ALU blocks connected together in a CPU that uses n-bit machine words?",
+          "options": [
+            "They are connected in n bit positions",
+            "They are connected in parallel",
+            "They are connected to a single bit",
+            "They are connected to a memory register"
+          ],
+          "answer": "They are connected in n bit positions"
         },
         {
-          "question": "Which of these is not a primitive data type in Java?",
-          "options": ["int", "boolean", "float", "String"],
-          "answer": "String"
+          "question": "What is the function of carry-in and carry-out signals in an ALU?",
+          "options": [
+            "They cascade adjacent ALU units for the sum operation",
+            "They control the input bits",
+            "They shift the input bits",
+            "They compare two binary numbers"
+          ],
+          "answer": "They cascade adjacent ALU units for the sum operation"
         },
         {
-          "question": "Which method is used to find the last occurrence of a character in a string?",
-          "options": ["lastIndexOf()", "indexOf()", "findLast()", "charAt()"],
-          "answer": "lastIndexOf()"
+          "question": "Which of the following is an example of a combinational circuit?",
+          "options": [
+            "Multiplexer",
+            "Memory Register",
+            "Latch",
+            "Flip-Flop"
+          ],
+          "answer": "Multiplexer"
+        },
+        {
+          "question": "What type of circuit is a full adder?",
+          "options": [
+            "Combinational Circuit",
+            "Sequential Circuit",
+            "Memory Circuit",
+            "Clocked Circuit"
+          ],
+          "answer": "Combinational Circuit"
+        },
+        {
+          "question": "What is the output of a comparator when two input bits are equal?",
+          "options": [
+            "1",
+            "0",
+            "Depends on the input",
+            "Undefined"
+          ],
+          "answer": "1"
+        },
+        {
+          "question": "In a multiplexer, what role do selection lines play?",
+          "options": [
+            "They determine which input is sent to the output",
+            "They add two input numbers",
+            "They shift bits",
+            "They compare two inputs"
+          ],
+          "answer": "They determine which input is sent to the output"
+        },
+        {
+          "question": "Which combinational circuit is responsible for encoding binary information?",
+          "options": [
+            "Encoder",
+            "Decoder",
+            "Comparator",
+            "Multiplexer"
+          ],
+          "answer": "Encoder"
         }
       ]
     },
     {
-      "title": "Java Programming Mid Guess Paper",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Fundamentals of Computing - Lecture 6: Digital Logic - III",
+      "icon": "./assets/images/icon-computing.svg",
       "questions": [
         {
-          "question": "Which keyword is used to define a method that cannot be overridden in Java?",
-          "options": ["final", "static", "private", "protected"],
-          "answer": "final"
+          "question": "What is a latch in digital logic?",
+          "options": [
+            "A single bit memory device",
+            "A full adder",
+            "A shift register",
+            "A sequential circuit"
+          ],
+          "answer": "A single bit memory device"
         },
         {
-          "question": "What is the output of the following code? `System.out.println(10 / 3);`",
-          "options": ["3.33", "3", "4", "0"],
-          "answer": "3"
+          "question": "Which digital logic gates can be used to construct a latch?",
+          "options": [
+            "AND, OR, NOT, NAND, NOR",
+            "XOR, XNOR",
+            "AND, XOR",
+            "OR, XNOR"
+          ],
+          "answer": "AND, OR, NOT, NAND, NOR"
         },
         {
-          "question": "Which of the following is true about a static method?",
-          "options": ["It belongs to the class, not instances", "It can access instance variables directly", "It can be overridden", "It is always public"],
-          "answer": "It belongs to the class, not instances"
+          "question": "What does a clock signal do in digital circuits?",
+          "options": [
+            "Maintains timing",
+            "Adds binary numbers",
+            "Stores data",
+            "Compares two inputs"
+          ],
+          "answer": "Maintains timing"
         },
         {
-          "question": "What is the output of `System.out.println(Math.ceil(4.2));`?",
-          "options": ["4.0", "4", "5.0", "5"],
-          "answer": "5.0"
+          "question": "Which flip-flop changes its output only on a clock transition from low to high or high to low?",
+          "options": [
+            "Edge-triggered flip-flop",
+            "SR flip-flop",
+            "D latch",
+            "Full adder"
+          ],
+          "answer": "Edge-triggered flip-flop"
         },
         {
-          "question": "Which of these is a valid declaration of a constructor in Java?",
-          "options": ["void Constructor()", "Constructor()", "new Constructor()", "Constructor.new()"],
-          "answer": "Constructor()"
+          "question": "What are the input signals of a D flip-flop called?",
+          "options": [
+            "D, Clock",
+            "A, B",
+            "Set, Reset",
+            "Carry, Borrow"
+          ],
+          "answer": "D, Clock"
         },
         {
-          "question": "Which of these is the correct way to create a comment in Java?",
-          "options": ["# comment", "// comment", "<!-- comment -->", "/* comment"],
-          "answer": "// comment"
+          "question": "What is the minimum time that a D input must remain constant before a clock transition occurs?",
+          "options": [
+            "Setup time",
+            "Hold time",
+            "Propagation delay",
+            "Cycle time"
+          ],
+          "answer": "Setup time"
         },
         {
-          "question": "Which of the following is true about the `break` statement?",
-          "options": ["It exits the current method", "It exits the current loop", "It stops the entire program", "It skips the current iteration"],
-          "answer": "It exits the current loop"
+          "question": "What is a sequential circuit?",
+          "options": [
+            "An interconnection of flip-flops and gates",
+            "A single logic gate",
+            "A combination of adders",
+            "A clockless circuit"
+          ],
+          "answer": "An interconnection of flip-flops and gates"
         },
         {
-          "question": "Which of these is a valid identifier in Java?",
-          "options": ["1stVariable", "first_Variable", "first-Variable", "first Variable"],
-          "answer": "first_Variable"
+          "question": "What type of circuit is a D flip-flop?",
+          "options": [
+            "Sequential circuit",
+            "Combinational circuit",
+            "Full adder",
+            "Half adder"
+          ],
+          "answer": "Sequential circuit"
         },
         {
-          "question": "What is the output of the following code: `System.out.println(\"Hello\".charAt(1));`",
-          "options": ["H", "e", "l", "o"],
-          "answer": "e"
+          "question": "How can flip-flops be connected to form a shift register?",
+          "options": [
+            "By connecting the Q output of one flip-flop to the D input of the next",
+            "By connecting all inputs together",
+            "By using an XOR gate",
+            "By using a decoder"
+          ],
+          "answer": "By connecting the Q output of one flip-flop to the D input of the next"
         },
         {
-          "question": "Which of the following is used to declare a constant in Java?",
-          "options": ["const", "constant", "final", "static"],
-          "answer": "final"
+          "question": "What is a ring counter used for?",
+          "options": [
+            "Finite state machines",
+            "Binary addition",
+            "Logic comparisons",
+            "Clock signals"
+          ],
+          "answer": "Finite state machines"
         },
         {
-          "question": "Which of the following is not an access specifier in Java?",
-          "options": ["public", "private", "protected", "package"],
-          "answer": "package"
+          "question": "What is the purpose of the clock input in a flip-flop?",
+          "options": [
+            "To trigger the transfer of the input to the output",
+            "To store data",
+            "To add two numbers",
+            "To compare two inputs"
+          ],
+          "answer": "To trigger the transfer of the input to the output"
         },
         {
-          "question": "What is the output of the following code: `System.out.println(\"Hello\".substring(0, 2));`",
-          "options": ["He", "Hel", "Ho", "H"],
-          "answer": "He"
+          "question": "In a D flip-flop, when does the state change occur?",
+          "options": [
+            "On the clock’s rising or falling edge",
+            "When the input changes",
+            "When the circuit is powered off",
+            "When the reset signal is applied"
+          ],
+          "answer": "On the clock’s rising or falling edge"
         },
         {
-          "question": "Which of the following is not a valid way to start a comment in Java?",
-          "options": ["//", "/*", "#", "*/"],
-          "answer": "#"
+          "question": "What is the propagation delay in a flip-flop?",
+          "options": [
+            "Time between the clock input and the response in Q",
+            "Time between input and output",
+            "Time to reset the circuit",
+            "Time to hold the data"
+          ],
+          "answer": "Time between the clock input and the response in Q"
         },
         {
-          "question": "Which of these is a valid way to create a new string in Java?",
-          "options": ["String str = new String(\"Hello\");", "String str = String(\"Hello\");", "String str = 'Hello';", "String str = \"Hello\"();"],
-          "answer": "String str = new String(\"Hello\");"
+          "question": "What operation does a shift register perform?",
+          "options": [
+            "Transfers data bits from one flip-flop to the next on clock cycles",
+            "Compares two inputs",
+            "Stores binary numbers",
+            "Adds two numbers"
+          ],
+          "answer": "Transfers data bits from one flip-flop to the next on clock cycles"
         },
         {
-          "question": "Which keyword is used to handle exceptions that are not caught?",
-          "options": ["try", "catch", "finally", "throw"],
-          "answer": "finally"
+          "question": "What is the primary use of registers in digital circuits?",
+          "options": [
+            "Storing and manipulating data",
+            "Adding binary numbers",
+            "Generating clock signals",
+            "Shifting data left or right"
+          ],
+          "answer": "Storing and manipulating data"
         },
         {
-          "question": "Which of these is not a loop construct in Java?",
-          "options": ["while", "for", "foreach", "do-while"],
-          "answer": "foreach"
+          "question": "In the context of registers, what does parallel reading/writing mean?",
+          "options": [
+            "All bits are written or read simultaneously",
+            "Bits are shifted one by one",
+            "Data is compared",
+            "Data is stored sequentially"
+          ],
+          "answer": "All bits are written or read simultaneously"
         },
         {
-          "question": "Which of these methods is used to convert a string to lowercase?",
-          "options": ["toLower()", "lowerCase()", "toLowerCase()", "lower()"],
-          "answer": "toLowerCase()"
+          "question": "Which circuit element is used to build sequential circuits such as state machines and memory elements?",
+          "options": [
+            "Latches",
+            "Multiplexers",
+            "Adders",
+            "Decoders"
+          ],
+          "answer": "Latches"
         },
         {
-          "question": "What is the output of `System.out.println(4 + 5 * 2);`?",
-          "options": ["18", "14", "13", "9"],
-          "answer": "14"
+          "question": "What type of flip-flop has set and reset inputs to control its state?",
+          "options": [
+            "SR Flip-flop",
+            "D Flip-flop",
+            "T Flip-flop",
+            "JK Flip-flop"
+          ],
+          "answer": "SR Flip-flop"
         },
         {
-          "question": "Which of the following is a valid declaration of a char array?",
-          "options": ["char[] arr;", "char arr[];", "char arr = [];", "Both A and B"],
-          "answer": "Both A and B"
+          "question": "What is the purpose of the reset input in a flip-flop?",
+          "options": [
+            "It clears the state to 0",
+            "It sets the state to 1",
+            "It adds binary numbers",
+            "It shifts data"
+          ],
+          "answer": "It clears the state to 0"
         },
         {
-          "question": "Which of these is not a valid way to initialize an array in Java?",
-          "options": ["int[] arr = new int[5];", "int[] arr = {1, 2, 3};", "int[] arr = new int[5]{1, 2, 3};", "int arr[] = new int[]{1, 2, 3};"],
-          "answer": "int[] arr = new int[5]{1, 2, 3};"
+          "question": "What is a clocked synchronous sequential circuit?",
+          "options": [
+            "A circuit that uses a clock signal to synchronize its operations",
+            "A circuit without a clock",
+            "A circuit that shifts data bits",
+            "A circuit that compares binary numbers"
+          ],
+          "answer": "A circuit that uses a clock signal to synchronize its operations"
+        },
+        {
+          "question": "What role do flip-flops play in registers?",
+          "options": [
+            "Storing data",
+            "Adding binary numbers",
+            "Comparing two inputs",
+            "Shifting bits left or right"
+          ],
+          "answer": "Storing data"
+        },
+        {
+          "question": "How are bits in a register typically written or read?",
+          "options": [
+            "All bits are read or written simultaneously",
+            "One bit is read at a time",
+            "Bits are compared first",
+            "The clock signal determines the output"
+          ],
+          "answer": "All bits are read or written simultaneously"
+        },
+        {
+          "question": "What is the primary purpose of using flip-flops in sequential circuits?",
+          "options": [
+            "Storing state information",
+            "Shifting data",
+            "Comparing inputs",
+            "Generating clock signals"
+          ],
+          "answer": "Storing state information"
+        },
+        {
+          "question": "What is a shift register with feedback from the Q output called?",
+          "options": [
+            "Ring counter",
+            "Shift counter",
+            "Adder",
+            "Latch"
+          ],
+          "answer": "Ring counter"
+        }
+      ]
+    },
+    {
+      "title": "Fundamentals of Computing - Guessing Paper 1",
+      "icon": "./assets/images/icon-computing.svg",
+      "questions": [
+        {
+          "question": "Who invented the Analytical Engine, a precursor to modern computers?",
+          "options": [
+            "Charles Babbage",
+            "John von Neumann",
+            "Alan Turing",
+            "Steve Jobs"
+          ],
+          "answer": "Charles Babbage"
+        },
+        {
+          "question": "What is the primary function of the Arithmetic Logic Unit (ALU)?",
+          "options": [
+            "Performs arithmetic and logic operations",
+            "Stores data",
+            "Compares two inputs",
+            "Adds binary numbers"
+          ],
+          "answer": "Performs arithmetic and logic operations"
+        },
+        {
+          "question": "In binary representation, how many bits are in a byte?",
+          "options": [
+            "8",
+            "16",
+            "4",
+            "32"
+          ],
+          "answer": "8"
+        },
+        {
+          "question": "What is the hexadecimal representation of binary 1110?",
+          "options": [
+            "E",
+            "C",
+            "F",
+            "A"
+          ],
+          "answer": "E"
+        },
+        {
+          "question": "Which logic gate gives an output of 1 only when both inputs are 1?",
+          "options": [
+            "AND",
+            "OR",
+            "NOT",
+            "NAND"
+          ],
+          "answer": "AND"
+        },
+        {
+          "question": "What does the SR latch stand for?",
+          "options": [
+            "Set-Reset",
+            "Shift-Right",
+            "Shift-Register",
+            "Set-Ready"
+          ],
+          "answer": "Set-Reset"
+        },
+        {
+          "question": "How many input and output lines does a 3-to-8 decoder have?",
+          "options": [
+            "3 inputs and 8 outputs",
+            "8 inputs and 3 outputs",
+            "4 inputs and 2 outputs",
+            "2 inputs and 4 outputs"
+          ],
+          "answer": "3 inputs and 8 outputs"
+        },
+        {
+          "question": "What operation does a multiplexer perform?",
+          "options": [
+            "Selects one of many inputs",
+            "Compares two inputs",
+            "Adds binary numbers",
+            "Shifts data"
+          ],
+          "answer": "Selects one of many inputs"
+        },
+        {
+          "question": "What does a D flip-flop store?",
+          "options": [
+            "A single bit of data",
+            "Multiple bits of data",
+            "Decimal values",
+            "Hexadecimal values"
+          ],
+          "answer": "A single bit of data"
+        },
+        {
+          "question": "In a sequential circuit, what component stores state information?",
+          "options": [
+            "Flip-flops",
+            "AND gates",
+            "Adders",
+            "Registers"
+          ],
+          "answer": "Flip-flops"
+        },
+        {
+          "question": "What is the purpose of clocking in digital circuits?",
+          "options": [
+            "To synchronize circuit operations",
+            "To store binary data",
+            "To shift data",
+            "To compare inputs"
+          ],
+          "answer": "To synchronize circuit operations"
+        },
+        {
+          "question": "What is the main function of a latch in digital logic?",
+          "options": [
+            "Memory storage",
+            "Binary addition",
+            "Logic comparison",
+            "Clock generation"
+          ],
+          "answer": "Memory storage"
+        },
+        {
+          "question": "In a ring counter, what happens to the output?",
+          "options": [
+            "It is fed back to the input",
+            "It shifts to the right",
+            "It shifts to the left",
+            "It is discarded"
+          ],
+          "answer": "It is fed back to the input"
+        },
+        {
+          "question": "What does the term 'setup time' refer to in flip-flops?",
+          "options": [
+            "The time before a clock transition during which input must be stable",
+            "The time after a clock transition during which input must be stable",
+            "The time required to reset the circuit",
+            "The time required for data to propagate"
+          ],
+          "answer": "The time before a clock transition during which input must be stable"
+        },
+        {
+          "question": "What is the result of a shift operation in a shift register?",
+          "options": [
+            "Data is shifted left or right",
+            "Data is added",
+            "Data is compared",
+            "Data is stored"
+          ],
+          "answer": "Data is shifted left or right"
+        }
+      ]
+    },
+    {
+      "title": "Fundamentals of Computing - Guessing Paper 2",
+      "icon": "./assets/images/icon-computing.svg",
+      "questions": [
+        {
+          "question": "What is the binary equivalent of the hexadecimal number 'A'?",
+          "options": [
+            "1010",
+            "1100",
+            "1001",
+            "1111"
+          ],
+          "answer": "1010"
+        },
+        {
+          "question": "What is the main difference between a half adder and a full adder?",
+          "options": [
+            "A full adder has a carry input",
+            "A full adder uses only AND gates",
+            "A half adder stores data",
+            "A full adder compares two inputs"
+          ],
+          "answer": "A full adder has a carry input"
+        },
+        {
+          "question": "Which gate is used to check if two binary inputs are equal?",
+          "options": [
+            "XOR",
+            "NOR",
+            "AND",
+            "XNOR"
+          ],
+          "answer": "XNOR"
+        },
+        {
+          "question": "What does a decoder do?",
+          "options": [
+            "Converts n inputs into 2^n outputs",
+            "Adds two binary numbers",
+            "Shifts binary data",
+            "Stores binary information"
+          ],
+          "answer": "Converts n inputs into 2^n outputs"
+        },
+        {
+          "question": "In an edge-triggered flip-flop, when does the output state change?",
+          "options": [
+            "At the clock's rising or falling edge",
+            "When the input changes",
+            "At the end of a clock cycle",
+            "During data storage"
+          ],
+          "answer": "At the clock's rising or falling edge"
+        },
+        {
+          "question": "What does the hold time in a flip-flop represent?",
+          "options": [
+            "The minimum time that the input must remain unchanged after the clock transition",
+            "The time between input and output",
+            "The time to reset the flip-flop",
+            "The time to load data into memory"
+          ],
+          "answer": "The minimum time that the input must remain unchanged after the clock transition"
+        },
+        {
+          "question": "How does a comparator circuit work?",
+          "options": [
+            "It compares two inputs and produces a result based on equality",
+            "It shifts bits left or right",
+            "It adds two binary numbers",
+            "It generates clock signals"
+          ],
+          "answer": "It compares two inputs and produces a result based on equality"
+        },
+        {
+          "question": "Which of the following is an application of a shift register?",
+          "options": [
+            "Serial-to-parallel data conversion",
+            "Binary addition",
+            "Logic comparison",
+            "Data storage"
+          ],
+          "answer": "Serial-to-parallel data conversion"
+        },
+        {
+          "question": "What is the primary function of a multiplexer in digital circuits?",
+          "options": [
+            "To select one of several inputs to be sent to the output",
+            "To add binary numbers",
+            "To shift data",
+            "To compare inputs"
+          ],
+          "answer": "To select one of several inputs to be sent to the output"
+        },
+        {
+          "question": "What type of signal is used to maintain timing in digital circuits?",
+          "options": [
+            "Clock signal",
+            "Data signal",
+            "Power signal",
+            "Reset signal"
+          ],
+          "answer": "Clock signal"
+        },
+        {
+          "question": "Which of the following circuits is considered combinational?",
+          "options": [
+            "Multiplexer",
+            "Latch",
+            "Flip-flop",
+            "Shift register"
+          ],
+          "answer": "Multiplexer"
+        },
+        {
+          "question": "What role does a clock play in sequential circuits?",
+          "options": [
+            "It synchronizes data transfer",
+            "It stores binary numbers",
+            "It shifts binary numbers",
+            "It compares binary inputs"
+          ],
+          "answer": "It synchronizes data transfer"
+        },
+        {
+          "question": "Which circuit is used to store a single bit of data?",
+          "options": [
+            "Latch",
+            "Multiplexer",
+            "Adder",
+            "Comparator"
+          ],
+          "answer": "Latch"
+        },
+        {
+          "question": "What is the purpose of an SR flip-flop?",
+          "options": [
+            "To store a single bit and provide set/reset control",
+            "To shift binary data",
+            "To compare two inputs",
+            "To add two binary numbers"
+          ],
+          "answer": "To store a single bit and provide set/reset control"
+        }
+      ]
+    },
+    {
+      "title": "Fundamentals of Computing - Guessing Paper 3",
+      "icon": "./assets/images/icon-computing.svg",
+      "questions": [
+        {
+          "question": "What is the size of an int data type in Java?",
+          "options": [
+            "32 bits",
+            "16 bits",
+            "8 bits",
+            "64 bits"
+          ],
+          "answer": "32 bits"
+        },
+        {
+          "question": "Which component in a CPU performs logical and arithmetic operations?",
+          "options": [
+            "ALU",
+            "Control Unit",
+            "Registers",
+            "Memory"
+          ],
+          "answer": "ALU"
+        },
+        {
+          "question": "In digital logic, what does the AND gate output when both inputs are 1?",
+          "options": [
+            "1",
+            "0",
+            "Undefined",
+            "Depends on the circuit"
+          ],
+          "answer": "1"
+        },
+        {
+          "question": "What is the function of a half adder?",
+          "options": [
+            "To add two binary digits and output sum and carry",
+            "To compare two inputs",
+            "To store data",
+            "To generate clock signals"
+          ],
+          "answer": "To add two binary digits and output sum and carry"
+        },
+        {
+          "question": "Which device in a digital circuit stores a single bit of data?",
+          "options": [
+            "Latch",
+            "Multiplexer",
+            "Adder",
+            "Comparator"
+          ],
+          "answer": "Latch"
+        },
+        {
+          "question": "What is the function of a decoder in digital logic?",
+          "options": [
+            "To convert binary inputs into a maximum of 2^n unique outputs",
+            "To add binary numbers",
+            "To shift data",
+            "To compare inputs"
+          ],
+          "answer": "To convert binary inputs into a maximum of 2^n unique outputs"
+        },
+        {
+          "question": "What does a D flip-flop do?",
+          "options": [
+            "It transfers the D input to the output on the clock edge",
+            "It compares two inputs",
+            "It shifts binary data",
+            "It stores two bits of data"
+          ],
+          "answer": "It transfers the D input to the output on the clock edge"
+        },
+        {
+          "question": "What is the purpose of a clock in sequential circuits?",
+          "options": [
+            "To synchronize data flow",
+            "To store data",
+            "To compare inputs",
+            "To add binary numbers"
+          ],
+          "answer": "To synchronize data flow"
+        },
+        {
+          "question": "What happens during the setup time of a flip-flop?",
+          "options": [
+            "The input must remain stable before the clock transition",
+            "The input changes after the clock transition",
+            "The flip-flop is reset",
+            "The output is compared"
+          ],
+          "answer": "The input must remain stable before the clock transition"
+        },
+        {
+          "question": "What type of circuit is used for serial-to-parallel data conversion?",
+          "options": [
+            "Shift register",
+            "Comparator",
+            "Latch",
+            "Adder"
+          ],
+          "answer": "Shift register"
+        },
+        {
+          "question": "What is the function of a ring counter?",
+          "options": [
+            "It transfers data bits in a circular manner",
+            "It adds binary numbers",
+            "It compares inputs",
+            "It stores two bits of data"
+          ],
+          "answer": "It transfers data bits in a circular manner"
+        },
+        {
+          "question": "In a sequential circuit, what is the function of flip-flops?",
+          "options": [
+            "To store state information",
+            "To add binary numbers",
+            "To compare inputs",
+            "To shift data"
+          ],
+          "answer": "To store state information"
+        },
+        {
+          "question": "Which gate outputs 1 when all inputs are 0?",
+          "options": [
+            "NOR gate",
+            "AND gate",
+            "XOR gate",
+            "OR gate"
+          ],
+          "answer": "NOR gate"
+        },
+        {
+          "question": "What is the output of an XOR gate when both inputs are the same?",
+          "options": [
+            "0",
+            "1",
+            "Undefined",
+            "Depends on the circuit"
+          ],
+          "answer": "0"
+        },
+        {
+          "question": "What is a sequential circuit composed of?",
+          "options": [
+            "Flip-flops and logic gates",
+            "Only logic gates",
+            "Only flip-flops",
+            "Adders and multiplexers"
+          ],
+          "answer": "Flip-flops and logic gates"
         }
       ]
     }
